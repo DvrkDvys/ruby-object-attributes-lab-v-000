@@ -1,16 +1,13 @@
 class dog
   def name(name)
     @name = name
+    puts @name
   end
 
 
 end
 
-describe 'Dog' do
-  it 'is defined within lib/dog.rb' do
-    expect(defined?(Dog)).to be_truthy
-    expect(Dog).to be_a(Class)
-  end
+
 
   context 'with names' do
     describe '#name=' do
