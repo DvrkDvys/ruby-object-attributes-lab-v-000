@@ -7,3 +7,6 @@ class Dog
     @dogs_name
   end
 end
+
+
+initialize(fido)
