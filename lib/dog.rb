@@ -1,6 +1,10 @@
 class dog
+  def name
+    
+  end
 
 
+end
 
 describe 'Dog' do
   it 'is defined within lib/dog.rb' do
