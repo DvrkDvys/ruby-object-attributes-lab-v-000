@@ -8,7 +8,6 @@ class Dog
   end
 end
 
-initialize("fido")
 
 fido = Dog.new("Fido")
 puts fido.name
