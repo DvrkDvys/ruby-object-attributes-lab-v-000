@@ -7,8 +7,8 @@ class Person
     @name
   end
 
-  def job=(beagle)
-    @job = beagle
+  def job=(singer)
+    @job = singer
   end
 
   def job
@@ -20,5 +20,5 @@ end
 beyonce = Person.new
 beyonce.name = "Beyonce"
 
-snoo = Dog.new
-snoopy.breed = "Beagle" 
+singer = Person.new
+beyonce.job = "Singer 
