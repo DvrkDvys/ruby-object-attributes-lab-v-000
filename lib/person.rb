@@ -1,24 +1,24 @@
 class Person
-  def name=(fido)
-    @name = fido
+  def name=(beyonce)
+    @name = beyonce
   end
 
   def name
     @name
   end
 
-  def breed=(beagle)
-    @breed = beagle
+  def job=(beagle)
+    @job = beagle
   end
 
-  def breed
-    @breed
+  def job
+    @job
   end
 end
 
 
-fido = Dog.new
-fido.name = "Fido"
+beyonce = Person.new
+beyonce.name = "Beyonce"
 
-snoopy = Dog.new
+snoo = Dog.new
 snoopy.breed = "Beagle" 
